@@ -8,7 +8,7 @@ export const metadata = {
 
 export default function Page() {
   return (
-    <section className="container mx-auto px-4 py-8">
+    <section className="container mx-auto py-8">
       <h1 className="font-semibold text-2xl mb-4 tracking-tighter">Blog</h1>
       <p className="mb-6 text-lg">
         Welcome to my blog. Here, I share insights and analysis on energy markets, data analytics, and technology. Stay tuned for updates and deep dives into the trends shaping the energy sector.
