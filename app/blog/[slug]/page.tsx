@@ -4,7 +4,7 @@ import { formatDate, getBlogPosts } from 'app/blog/utils'
 import { baseUrl } from 'app/sitemap'
 
 export async function generateStaticParams() {
-  let posts = getBlogPosts()
+  const posts = getBlogPosts()
 
   return posts.map((post) => ({
     slug: post.slug,
@@ -12,20 +12,13 @@ export async function generateStaticParams() {
 }
 
 export function generateMetadata({ params }) {
-  let post = getBlogPosts().find((post) => post.slug === params.slug)
+  const post = getBlogPosts().find((post) => post.slug === params.slug)
   if (!post) {
     return
   }
 
-  let {
-    title,
-    publishedAt: publishedTime,
-    summary: description,
-    image,
-  } = post.metadata
-  let ogImage = image
-    ? image
-    : `${baseUrl}/og?title=${encodeURIComponent(title)}`
+  const { title, publishedAt: publishedTime, summary: description, image } = post.metadata
+  const ogImage = image ? image : `${baseUrl}/og?title=${encodeURIComponent(title)}`
 
   return {
     title,
@@ -52,7 +45,7 @@ export function generateMetadata({ params }) {
 }
 
 export default function Blog({ params }) {
-  let post = getBlogPosts().find((post) => post.slug === params.slug)
+  const post = getBlogPosts().find((post) => post.slug === params.slug)
 
   if (!post) {
     notFound()
@@ -77,7 +70,7 @@ export default function Blog({ params }) {
             url: `${baseUrl}/blog/${post.slug}`,
             author: {
               '@type': 'Person',
-              name: 'My Portfolio',
+              name: 'Arjun Sekhon',
             },
           }),
         }}

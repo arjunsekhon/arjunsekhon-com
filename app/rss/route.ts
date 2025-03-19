@@ -17,9 +17,7 @@ export async function GET() {
           <title>${post.metadata.title}</title>
           <link>${baseUrl}/blog/${post.slug}</link>
           <description>${post.metadata.summary || ''}</description>
-          <pubDate>${new Date(
-            post.metadata.publishedAt
-          ).toUTCString()}</pubDate>
+          <pubDate>${new Date(post.metadata.publishedAt).toUTCString()}</pubDate>
         </item>`
     )
     .join('\n')
@@ -27,9 +25,9 @@ export async function GET() {
   const rssFeed = `<?xml version="1.0" encoding="UTF-8" ?>
   <rss version="2.0">
     <channel>
-        <title>My Portfolio</title>
+        <title>Arjun Sekhon Portfolio</title>
         <link>${baseUrl}</link>
-        <description>This is my portfolio RSS feed</description>
+        <description>Insights on energy markets, data analytics, and technology by Arjun Sekhon – a UK-based energy data analyst and Chemistry student.</description>
         ${itemsXml}
     </channel>
   </rss>`
