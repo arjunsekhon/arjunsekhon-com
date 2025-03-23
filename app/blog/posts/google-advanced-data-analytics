@@ -1,0 +1,17 @@
+---
+title: "Why I Completed Google's Advanced Data Analytics Certificate: A Practical Perspective for Energy Analysts"
+publishedAt: "2024-08-16"
+summary: "A personal account of gaining practical data analysis skills for energy market analysis through Google's Advanced Data Analytics Certificate."
+---
+
+As a second-year Chemistry student with a strong interest in energy markets, I wanted to build practical skills in data analysis to explore oil, gas, natural gas liquids, wind, solar, battery, and power markets. I chose Google's Advanced Data Analytics Professional Certificate – a [seven-course programme](https://www.coursera.org/professional-certificates/google-advanced-data-analytics) data analysis, Python, statistics, machine learning, and visualisation – because it provided a practical toolkit I could apply directly.
+
+The statistics module was very useful. Through hands-on exercises, I gained a solid grasp of probability distributions, sampling methods, confidence intervals, and hypothesis testing, skills essential for managing uncertainty and volatility in energy markets. I now feel better equipped to model distributions, test market signals, or interpret fluctuations in renewable generation.
+
+My key goal was to confidently model relationships within complex energy datasets. The course's practical approach to regression—covering both simple and multiple regression, including techniques like Ridge and Lasso—has given me the tools to build more accurate predictive models. I plan to use these methods to forecast commodity prices, analyse trends in power demand, and understand the factors behind market shifts.
+
+I also tackled machine learning, which initially seemed daunting. The structured introduction clarified supervised, unsupervised, reinforcement, and deep learning. By working directly with datasets, I learned to implement random forests and gradient boosting models to identify patterns, like peak-demand days or clusters in historical data.
+
+Creating [Tableau](https://public.tableau.com/app/profile/arjun.sekhon/vizzes) visualisations further enhanced my ability to visualise complex data. Tableau's free, public platform made distinguishing between dimensions and measures straightforward, an invaluable skill for real-time analysis in dynamic energy markets.
+
+Completing Google's Advanced Data Analytics [Certificate](https://www.coursera.org/account/accomplishments/professional-cert/QVYZB2WHIGLE) has given me practical skills and a structured approach, primarily through Google's PACE (Plan, Analyse, Construct, Execute) framework, improving my work's clarity and efficiency. I strongly recommend this course for anyone looking to build robust analytical skills relevant to energy markets.
