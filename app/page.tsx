@@ -13,10 +13,10 @@ export default function Page() {
       </header>
       <div className="mb-6 text-lg">
         <p>
-          I work with data to make sense of the energy trading markets. As a second-year Chemistry student at the University of Manchester, I've built a strong understanding of chemical principles, practical analytical skills, and a knack for problem-solving – all of which help me navigate the complexities of energy markets.
+          I work with data to understand energy trading markets. As a second-year Chemistry student at the University of Manchester, I've developed a strong understanding of chemical principles, practical analytical skills, and a knack for problem-solving, all of which help me navigate the complexities of energy markets.
         </p>
         <p className="mt-4">
-          This portfolio site was built with Next.js and deployed on Vercel as I explored the challenges of launching a website in production and to develop my skills in React.js. Here, I share my projects, insights, and learnings at the crossroads of energy, data, and technology.
+          I built this portfolio site with Next.js and deployed it on Vercel as I explored the challenges of launching a website in production and developing my skills in React.js. Here, I share my projects, insights, and learnings at the crossroads of energy, data, and technology.
         </p>
       </div>
       <div className="my-8">
